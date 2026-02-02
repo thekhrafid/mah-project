@@ -3,3 +3,7 @@
 *{
       font-family: "Poppins", sans-serif;
 }
+
+.container{
+      @apply w-[1320px] mx-auto;
+}
