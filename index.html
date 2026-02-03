@@ -21,57 +21,57 @@
 </head>
 
 <body>
-    <header class="py-15 bg-[#EEEDDE]">
+    <header class=" py-5 md:py-15 bg-[#EEEDDE] w-full">
 
         <!--Start navbar section  -->
-        <nav class="container py-2 flex justify-between items-center">
-            <div>
+        <nav class="md:container  md:py-2 flex justify-between items-center">
+            <div class="ml-5">
                 <img src="./image/logo.png" alt="Logo">
             </div>
+            <i class="fa-solid fa-bars md:hidden! mr-5"></i>
 
-            <div>
-                <ul class="flex gap-x-7">
-                    <li
-                        class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
+
+            <ul class="hidden md:flex md:gap-x-7">
+                <li
+                    class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
                         after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-orange-500 
                         after:transition-all after:duration-500 hover:after:w-full hover:font-semibold hover:text-black">
-                        <a href="/">Home</a>
-                    </li>
-                    <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
+                    <a href="/">Home</a>
+                </li>
+                <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
                         after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-orange-500 
                         after:transition-all after:duration-500 hover:after:w-full hover:text-black">
-                        <a href="/">About</a>
-                    </li>
-                    <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
+                    <a href="/">About</a>
+                </li>
+                <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
                         after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-orange-500 
                         after:transition-all after:duration-500 hover:after:w-full hover:text-black">
-                        <a href="/">Properties</a>
-                    </li>
-                    <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
+                    <a href="/">Properties</a>
+                </li>
+                <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
                         after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-orange-500 
                         after:transition-all after:duration-500 hover:after:w-full hover:text-black">
-                        <a href="/">Contact</a>
-                    </li>
-                </ul>
-            </div>
+                    <a href="/">Contact</a>
+                </li>
+            </ul>
         </nav>
         <!--End navbar section  -->
 
         <!-- banner section start  -->
-        <section class="flex gap-x-8 container">
-            <div class="w-194.25 p-4">
-                <h1 class="text-[#203239] text-[56px] pt-46">Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
-                <p class="pText pr-50 pt-8">Menyediakan hunian bagi keluarga anda
+        <section class="md:flex gap-x-8 md:container">
+            <div class="md:w-194.25 p-4">
+                <h1 class="text-[#203239] wrap-break-word w-[95%] md:text-[56px] md:pt-46 md:w-194.25">Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
+                <p class="pText wrap-break-word w-[95%] md:pr-50 pt-8 ">Menyediakan hunian bagi keluarga anda
                     dengan varian pilihan dan lokasi yang strategis di kota anda
                     dengan cara yang lebih mudah.</p>
 
                 <div class="mt-10">
                     <input type="text" placeholder="Search location, properties, residental group"
-                        class="w-127 py-4 px-6 bg-white rounded-2xl placeholder:text-[#203239]/55 ">
-                    <button class="bg-white rounded-2xl py-4 px-4 cursor-pointer text-[#203239]/55">Search</button>
+                        class="w-[90%] md:w-127 py-4 px-6 bg-white rounded-2xl placeholder:text-[#203239]/55 ">
+                    <button class="bg-white mt-3 rounded-2xl py-4 px-4 cursor-pointer text-[#203239]/55">Search</button>
                 </div>
-            </div>
-            <div class="w-93.25 pt-31.75">
+            </div> 
+            <div class="px-5 md:w-93.25 md:pt-31.75">
                 <img src="./image/banner.png" alt="Banner Image">
             </div>
         </section>
@@ -79,12 +79,12 @@
     </header>
 
     <!-- Property section start  -->
-    <section class="py-24 container">
-        <div class="hText pr-170 ">
+    <section class="py-24 md:container">
+        <div class=" text-xl px-5 font-semibold md:hText md:pr-170 ">
             <h1>Tahapan Pembelian Properti yang Mudah dan Cepat</h1>
         </div>
 
-        <div class="mt-12 grid grid-cols-3 justify-between">
+        <div class="mt-12 md:grid md:grid-cols-3 md:justify-between">
             <div class="cHover relative">
                 <div class="w-1.5 h-6 rounded-2xl bg-[#FF7527] absolute top-12.5 left-4"></div>
                 <div>
@@ -139,32 +139,32 @@
 
 
     <!-- Residen Favorit section start  -->
-    <section class="py-15 bg-[#EEEDDE]">
-        <div class="container">
+    <section class="py-5 md:py-15 bg-[#EEEDDE]">
+        <div class="md:container">
             <div>
-                <p class="text-[#FF7527]">Pilihan konsumen</p>
-                <h1 class="hText">Residen Favorit</h1>
+                <p class="px-5 text-[#FF7527]">Pilihan konsumen</p>
+                <h1 class="text-xl px-5 font-semibold md:hText">Residen Favorit</h1>
             </div>
 
-            <div class="grid grid-cols-2 justify-between gap-x-4 mt-10">
+            <div class="md:grid md:grid-cols-2 md:justify-between gap-x-4 mt-10">
                 <div class="">
-                    <div class="">
+                    <div class="px-5">
                         <img src="./image/group1.png" alt="Group1">
                     </div>
-                    <div class="-mt-100 ml-40">
+                    <div class="px-5 md:-mt-100 md:ml-40">
                         <img src="./image/group2.jpg" alt="Group1">
                     </div>
                 </div>
                 <div>
                     <div class="py-10">
-                        <h1 class="hText pr-20">Bangunan yang dirancang oleh Aristektur Handal</h1>
-                        <p class="pText pr-20 pt-5">Tanpa diragukan, properti yang disediakan dalam webiste kami
+                        <h1 class="px-5 text-xl font-semibold md:hText md:pr-20">Bangunan yang dirancang oleh Aristektur Handal</h1>
+                        <p class="px-5 text-[#203239] md:pText md:pr-20 pt-5">Tanpa diragukan, properti yang disediakan dalam webiste kami
                             merupakan hasil
                             kerjasama secara profesional dengan para Arsitektur ternama dan Developer yang terpercaya.
                         </p>
 
-                        <button class="btnText"><i class="fa-solid fa-phone pr-3"></i>Hubungi Kami</button>
-                        <button class="btnText">Explore lebih banyak</button>
+                        <button class="mx-5 btnText"><i class="fa-solid fa-phone pr-3"></i>Hubungi Kami</button>
+                        <button class="mx-5 btnText">Explore lebih banyak</button>
                     </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@
 
 
     <!-- contact section start  -->
-    <section class="py-15 bg-[#EEEDDE]">
+    <!-- <section class="py-15 bg-[#EEEDDE]">
         <div class="grid grid-cols-2 justify-between gap-6 container">
             <div>
                 <h1 class="hText">Hubungi Kami</h1>
@@ -254,12 +254,12 @@
                 </div>
         </div>
 
-    </section>
+    </section> -->
     <!-- contact section end -->
 
     <!-- Footer section start  -->
 
-    <footer class="bg-[#203239] py-6">
+    <!-- <footer class="bg-[#203239] py-6">
         <div class="container">
             <div class="grid grid-cols-2 justify-between">
                 <div>
@@ -273,7 +273,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- Footer section end  -->
 </body>
 
