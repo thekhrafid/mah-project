@@ -393,6 +393,11 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .placeholder\:text-\[\#203239\]\/55 {
+    &::placeholder {
+      color: color-mix(in oklab, #203239 55%, transparent);
+    }
+  }
   .after\:absolute {
     &::after {
       content: var(--tw-content);
