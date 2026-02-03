@@ -1,9 +1,28 @@
 @import "tailwindcss";
 
-*{
+* {
       font-family: "Poppins", sans-serif;
 }
 
-.container{
+.container {
       @apply w-[1320px] mx-auto;
+}
+
+.hText {
+      @apply text-[36px] font-semibold text-[#203239];
+}
+
+.pText {
+      @apply text-[16px] font-light text-[#203239]/55;
+}
+
+.cHtext {
+      @apply text-[#203239] text-[16px] font-medium;
+}
+
+.cHover {
+      @apply w-75 h-75 mx-auto p-8 text-left hover:shadow-xl transition-shadow duration-200 cursor-pointer rounded-2xl 
+}
+.btnText{
+      @apply border-2 border-[#203239] rounded-xl py-2 px-6 text-[16px] font-semibold hover:bg-[#203239] hover:text-white transition-all cursor-pointer mt-5
 }

@@ -6,10 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cdn link   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header>
+    <header class="py-15 bg-[#EEEDDE]">
+
+        <!--Start navbar section  -->
         <nav class="container py-2 flex justify-between items-center">
             <div>
                 <img src="./image/logo.png" alt="Logo">
@@ -17,26 +31,157 @@
 
             <div>
                 <ul class="flex gap-x-7">
-                    <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
+                    <li
+                        class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
                         after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-orange-500 
                         after:transition-all after:duration-500 hover:after:w-full hover:font-semibold hover:text-black">
-                        <a href="/">Home</a></li>
+                        <a href="/">Home</a>
+                    </li>
                     <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
                         after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-orange-500 
-                        after:transition-all after:duration-500 hover:after:w-full hover:font-semibold hover:text-black">
-                        <a href="/">About</a></li>
+                        after:transition-all after:duration-500 hover:after:w-full hover:text-black">
+                        <a href="/">About</a>
+                    </li>
                     <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
                         after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-orange-500 
-                        after:transition-all after:duration-500 hover:after:w-full hover:font-semibold hover:text-black">
-                        <a href="/">Properties</a></li>
+                        after:transition-all after:duration-500 hover:after:w-full hover:text-black">
+                        <a href="/">Properties</a>
+                    </li>
                     <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
                         after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-orange-500 
-                        after:transition-all after:duration-500 hover:after:w-full hover:font-semibold hover:text-black">
-                        <a href="/">Contact</a></li>
+                        after:transition-all after:duration-500 hover:after:w-full hover:text-black">
+                        <a href="/">Contact</a>
+                    </li>
                 </ul>
             </div>
         </nav>
+        <!--End navbar section  -->
+
+        <!-- banner section start  -->
+        <section class="flex gap-x-8 container">
+            <div class="w-194.25 p-4">
+                <h1 class="text-[#203239] text-[56px] pt-46">Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
+                <p class="pText pr-50 pt-8">Menyediakan hunian bagi keluarga anda
+                    dengan varian pilihan dan lokasi yang strategis di kota anda
+                    dengan cara yang lebih mudah.</p>
+
+                <div class="mt-10">
+                    <input type="text" placeholder="Search location, properties, residental group"
+                        class="w-127 py-4 px-6 bg-white rounded-2xlplaceholder:text-[#203239]/55 ">
+                    <button class="bg-white rounded-2xl py-4 px-4 cursor-pointer text-[#203239]/55">Search</button>
+                </div>
+            </div>
+            <div class="w-93.25 pt-31.75">
+                <img src="./image/banner.png" alt="Banner Image">
+            </div>
+        </section>
+
     </header>
+
+    <!-- Property section start  -->
+    <section class="py-24 container">
+        <div class="hText pr-170 ">
+            <h1>Tahapan Pembelian Properti yang Mudah dan Cepat</h1>
+        </div>
+
+        <div class="mt-12 grid grid-cols-3 justify-between">
+            <div class="cHover relative">
+                <div class="w-1.5 h-6 rounded-2xl bg-[#FF7527] absolute top-12.5 left-4"></div>
+                <div>
+                    <div class="flex justify-between items-center  py-5">
+                        <h2 class="cHtext">Pilih Properti <h2 class="text-[#FF7527] text-right">01</h2>
+                        </h2>
+                    </div>
+                    <p class="pText">Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara
+                        memilih properti
+                        yang bijak dapat anda baca lebih lanjut di sini</p>
+                    <div class="flex justify-between items-center py-10 cursor-pointer">
+                        <h2>Baca lebih Lanjut</h2>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="cHover relative">
+                <div class="w-1.5 h-6 rounded-2xl bg-[#FF7527] absolute top-12.5 left-4"></div>
+                <div>
+                    <div class="flex justify-between items-center  py-5">
+                        <h2 class="cHtext">Proses Booking <h2 class="text-[#FF7527] text-right">02</h2>
+                        </h2>
+                    </div>
+                    <p class="pText">Pembayaran dalam bentuk sejumlah uang sebagai komitmen memesan unit properti
+                        tertentu.</p>
+                    <div class="flex justify-between items-center py-10 cursor-pointer">
+                        <h2>Baca lebih Lanjut</h2>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="cHover relative">
+                <div class="w-1.5 h-6 rounded-2xl bg-[#FF7527] absolute top-12.5 left-4"></div>
+                <div>
+                    <div class="flex justify-between items-center  py-5">
+                        <h2 class="cHtext">KPR dan Sertifikasi <h2 class="text-[#FF7527] text-right">03</h2>
+                        </h2>
+                    </div>
+                    <p class="pText">Pembiayaan KPR untuk pembeli rumah dengan skema pembiayaan jika diperlukan dan
+                        dilanjutkan proses sertifkasi HGB.</p>
+                    <div class="flex justify-between items-center py-10 cursor-pointer">
+                        <h2>Baca lebih Lanjut</h2>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property section end  -->
+
+
+
+    <!-- Residen Favorit section start  -->
+    <section class="py-15 bg-[#EEEDDE]">
+        <div class="container">
+            <div>
+                <p class="text-[#FF7527]">Pilihan konsumen</p>
+                <h1 class="hText">Residen Favorit</h1>
+            </div>
+
+            <div class="grid grid-cols-2 justify-between gap-x-4 mt-10">
+                <div class="">
+                    <div class="">
+                        <img src="./image/group1.png" alt="Group1">
+                    </div>
+                    <div class="-mt-100 ml-40">
+                        <img src="./image/group2.jpg" alt="Group1">
+                    </div>
+                </div>
+                <div>
+                    <div class="py-10">
+                        <h1 class="hText pr-20">Bangunan yang dirancang oleh Aristektur Handal</h1>
+                        <p class="pText pr-20 pt-5">Tanpa diragukan, properti yang disediakan dalam webiste kami merupakan hasil
+                            kerjasama secara profesional dengan para Arsitektur ternama dan Developer yang terpercaya.
+                        </p>
+
+                        <button class="btnText"><i class="fa-solid fa-phone pr-3"></i>Hubungi Kami</button>
+                        <button class="btnText">Explore lebih banyak</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Residen Favorit section start  -->
+
+        <!-- Residen Berbagai Kota section start  -->
+        <section>
+            <div>
+                <p class="text-[#FF7527]">Pilihan Auditor</p>
+                <h1 class="hText">Residen Berbagai Kota</h1>
+            </div>
+
+            
+        </section>
+        
+        <!-- Residen Berbagai Kota section start  -->
 </body>
 
 </html>
