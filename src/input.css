@@ -9,7 +9,10 @@
 }
 
 .hText {
-      @apply text-[36px] font-semibold text-[#203239];
+      @apply text-[36px] font-semibold text-[#203239] leading-15;
+}
+.h2Text {
+      @apply text-[24px] font-medium text-[#203239] leading-18;
 }
 
 .pText {
