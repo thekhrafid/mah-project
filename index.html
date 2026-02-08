@@ -21,34 +21,34 @@
 </head>
 
 <body>
-    <header class=" py-5 md:py-15 bg-[#EEEDDE] w-full">
+    <header class="py-8 md:py-12 lg:py-15 bg-[#EEEDDE] w-full">
 
         <!--Start navbar section  -->
-        <nav class=" container md:py-2 flex justify-between items-center">
-            <div class="ml-5">
-                <img src="./image/logo.png" alt="Logo">
+        <nav class="container md:py-2 flex justify-between items-center px-4 md:px-0">
+            <div class="ml-0 md:ml-5">
+                <img src="./image/logo.png" alt="Logo" class="w-14 md:w-16 lg:w-20">
             </div>
-            <i class="fa-solid fa-bars md:hidden! mr-5"></i>
+            <i class="fa-solid fa-bars md:hidden text-2xl mr-5"></i>
 
 
-            <ul class="hidden md:flex md:gap-x-7">
+            <ul class="hidden md:flex md:gap-x-5 lg:gap-x-7">
                 <li
-                    class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
+                    class="text-sm lg:text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
                         after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-orange-500 
                         after:transition-all after:duration-500 hover:after:w-full hover:font-semibold hover:text-black">
                     <a href="/">Home</a>
                 </li>
-                <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
+                <li class="text-sm lg:text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
                         after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-orange-500 
                         after:transition-all after:duration-500 hover:after:w-full hover:text-black">
                     <a href="/">About</a>
                 </li>
-                <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
+                <li class="text-sm lg:text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
                         after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-orange-500 
                         after:transition-all after:duration-500 hover:after:w-full hover:text-black">
                     <a href="/">Properties</a>
                 </li>
-                <li class="text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
+                <li class="text-sm lg:text-lg font-regular text-gray-600 relative after:absolute after:content-[''] 
                         after:bottom-0 after:left-0 after:w-0 after:h-1 after:bg-orange-500 
                         after:transition-all after:duration-500 hover:after:w-full hover:text-black">
                     <a href="/">Contact</a>
@@ -58,75 +58,75 @@
         <!--End navbar section  -->
 
         <!-- banner section start  -->
-        <section class="container md:flex gap-x-8">
-            <div class="md:w-194.25 p-4">
-                <h1 class="text-[#203239] text-[28px] wrap-break-word  md:text-[56px] md:pt-46 md:w-194.25">Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
-                <p class="pText w-[320px] wrap-break-word md:w-full md:pr-50 pt-8 ">Menyediakan hunian bagi keluarga anda
+        <section class="mdcontainer md:flex gap-2 md:gap-x-8 px-4 md:px-0">
+            <div class="md:w-194.25 p-2 md:p-4">
+                <h1 class="text-[#203239] text-2xl md:text-4xl lg:text-[56px] break-words md:pt-8 lg:md:pt-46">Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
+                <p class="pText w-full pt-4 md:pt-8 lg:pr-50">Menyediakan hunian bagi keluarga anda
                     dengan varian pilihan dan lokasi yang strategis di kota anda
                     dengan cara yang lebih mudah.</p>
 
-                <div class="mt-10">
+                <div class="mt-6 md:mt-10 search-wrapper">
                     <input type="text" placeholder="Search location, properties, residental group"
-                        class="w-[90%] md:w-127 py-4 px-6 bg-white rounded-2xl placeholder:text-[#203239]/55 ">
-                    <button class="bg-white mt-3 rounded-2xl py-4 px-4 cursor-pointer text-[#203239]/55">Search</button>
+                        class="w-full md:w-127 py-3 md:py-4 px-4 md:px-6 bg-white rounded-xl md:rounded-2xl placeholder:text-[#203239]/55 text-sm md:text-base">
+                    <button class="bg-white rounded-xl md:rounded-2xl py-3 md:py-4 px-4 md:px-6 cursor-pointer text-[#203239]/55 font-medium text-sm md:text-base hover:bg-[#FF7527] hover:text-white transition-all">Search</button>
                 </div>
             </div> 
-            <div class="px-5 md:w-93.25 md:pt-31.75">
-                <img src="./image/banner.png" alt="Banner Image">
+            <div class="px-2 md:px-5 md:w-93.25 md:pt-8 lg:md:pt-31.75 w-full">
+                <img src="./image/banner.png" alt="Banner Image" class="w-full h-auto">
             </div>
         </section>
 
     </header>
 
     <!-- Property section start  -->
-    <section class="py-24 container">
-        <div class=" px-5 hText md:pr-40 ">
-            <h1 class="px-5 hText md:pr-40">Tahapan Pembelian Properti yang Mudah dan Cepat</h1>
+    <section class="py-12 md:py-24 container">
+        <div class="px-4 md:px-5">
+            <h1 class="hText">Tahapan Pembelian Properti yang Mudah dan Cepat</h1>
         </div>
 
-        <div class="mt-12 md:grid md:grid-cols-3 md:justify-between">
+        <div class="mt-8 md:mt-12 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 px-4 md:px-0">
             <div class="cHover relative">
-                <div class="w-1.5 h-6 rounded-2xl bg-[#FF7527] absolute top-12.5 left-4"></div>
+                <div class="w-1.5 h-6 rounded-2xl bg-[#FF7527] absolute top-8 md:top-12.5 left-4"></div>
                 <div>
-                    <div class="flex justify-between items-center  py-5">
+                    <div class="flex justify-between items-center py-4 md:py-5">
                         <h2 class="cHtext">Pilih Properti <h2 class="text-[#FF7527] text-right">01</h2>
                         </h2>
                     </div>
                     <p class="pText">Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara
                         memilih properti
                         yang bijak dapat anda baca lebih lanjut di sini</p>
-                    <div class="flex justify-between items-center py-10 cursor-pointer">
-                        <h2>Baca lebih Lanjut</h2>
+                    <div class="flex justify-between items-center py-8 md:py-10 cursor-pointer hover:text-[#FF7527] transition-colors">
+                        <h2 class="text-sm md:text-base">Baca lebih Lanjut</h2>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </div>
             </div>
             <div class="cHover relative">
-                <div class="w-1.5 h-6 rounded-2xl bg-[#FF7527] absolute top-12.5 left-4"></div>
+                <div class="w-1.5 h-6 rounded-2xl bg-[#FF7527] absolute top-8 md:top-12.5 left-4"></div>
                 <div>
-                    <div class="flex justify-between items-center  py-5">
+                    <div class="flex justify-between items-center py-4 md:py-5">
                         <h2 class="cHtext">Proses Booking <h2 class="text-[#FF7527] text-right">02</h2>
                         </h2>
                     </div>
                     <p class="pText">Pembayaran dalam bentuk sejumlah uang sebagai komitmen memesan unit properti
                         tertentu.</p>
-                    <div class="flex justify-between items-center py-10 cursor-pointer">
-                        <h2>Baca lebih Lanjut</h2>
+                    <div class="flex justify-between items-center py-8 md:py-10 cursor-pointer hover:text-[#FF7527] transition-colors">
+                        <h2 class="text-sm md:text-base">Baca lebih Lanjut</h2>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </div>
             </div>
             <div class="cHover relative">
-                <div class="w-1.5 h-6 rounded-2xl bg-[#FF7527] absolute top-12.5 left-4"></div>
+                <div class="w-1.5 h-6 rounded-2xl bg-[#FF7527] absolute top-8 md:top-12.5 left-4"></div>
                 <div>
-                    <div class="flex justify-between items-center  py-5">
+                    <div class="flex justify-between items-center py-4 md:py-5">
                         <h2 class="cHtext">KPR dan Sertifikasi <h2 class="text-[#FF7527] text-right">03</h2>
                         </h2>
                     </div>
                     <p class="pText">Pembiayaan KPR untuk pembeli rumah dengan skema pembiayaan jika diperlukan dan
                         dilanjutkan proses sertifkasi HGB.</p>
-                    <div class="flex justify-between items-center py-10 cursor-pointer">
-                        <h2>Baca lebih Lanjut</h2>
+                    <div class="flex justify-between items-center py-8 md:py-10 cursor-pointer hover:text-[#FF7527] transition-colors">
+                        <h2 class="text-sm md:text-base">Baca lebih Lanjut</h2>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </div>
@@ -139,32 +139,32 @@
 
 
     <!-- Residen Favorit section start  -->
-    <section class="py-5 md:py-15 bg-[#EEEDDE]">
+    <section class="py-12 md:py-15 bg-[#EEEDDE] px-4 md:px-0">
         <div class="container">
             <div>
-                <p class="px-5 text-[#FF7527]">Pilihan konsumen</p>
-                <h1 class="text-xl px-5 font-semibold hText">Residen Favorit</h1>
+                <p class="text-[#FF7527] text-xs md:text-sm font-semibold">Pilihan konsumen</p>
+                <h1 class="hText">Residen Favorit</h1>
             </div>
 
-            <div class="md:grid md:grid-cols-2 md:justify-between gap-x-4 mt-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-x-4 mt-8 md:mt-10">
                 <div class="">
-                    <div class="px-5">
-                        <img src="./image/group1.png" alt="Group1">
+                    <div class="px-0 md:px-5">
+                        <img src="./image/group1.png" alt="Group1" class="w-full h-auto">
                     </div>
-                    <div class="px-5 md:-mt-100 md:ml-40">
-                        <img src="./image/group2.jpg" alt="Group1">
+                    <div class="px-0 md:px-5 md:-mt-100 md:ml-40 mt-4 md:mt-0">
+                        <img src="./image/group2.jpg" alt="Group2" class="w-full h-auto">
                     </div>
                 </div>
                 <div>
-                    <div class="py-10">
-                        <h1 class="px-5 text-xl font-semibold hText md:pr-20">Bangunan yang dirancang oleh Aristektur Handal</h1>
-                        <p class="px-5 text-[#203239] md:pText md:pr-20 pt-5">Tanpa diragukan, properti yang disediakan dalam webiste kami
+                    <div class="py-6 md:py-10">
+                        <h1 class="hText md:pr-20">Bangunan yang dirancang oleh Aristektur Handal</h1>
+                        <p class="pText md:pr-20 pt-4 md:pt-5">Tanpa diragukan, properti yang disediakan dalam webiste kami
                             merupakan hasil
                             kerjasama secara profesional dengan para Arsitektur ternama dan Developer yang terpercaya.
                         </p>
 
-                        <button class="mx-5 btnText"><i class="fa-solid fa-phone pr-3"></i>Hubungi Kami</button>
-                        <button class="mx-5 btnText">Explore lebih banyak</button>
+                        <button class="btnText w-full md:w-auto"><i class="fa-solid fa-phone pr-2"></i>Hubungi Kami</button>
+                        <button class="btnText w-full md:w-auto">Explore lebih banyak</button>
                     </div>
                 </div>
             </div>
@@ -173,85 +173,83 @@
     <!-- Residen Favorit section start  -->
 
     <!-- Residen Berbagai Kota section start  -->
-    <section class="py-16">
+    <section class="py-12 md:py-16 px-4 md:px-0">
         <div class="container">
             <div>
-                <p class="px-5 text-[#FF7527]">Pilihan Auditor</p>
-                <h1 class="px-5  reshText hText md:pb-10">Residen Berbagai Kota</h1>
+                <p class="text-[#FF7527] text-xs md:text-sm font-semibold">Pilihan Auditor</p>
+                <h1 class="hText pb-6 md:pb-10">Residen Berbagai Kota</h1>
             </div>
 
-            <div class="grid gap-6 md:grid-cols-3 md:gap-4">
-                <div class="px-5 md:w-93.25">
-                    <img src="./image/image 5.jpg" alt="image 5.jpg">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+                <div class="px-0 md:px-5 md:w-93.25">
+                    <img src="./image/image 5.jpg" alt="image 5.jpg" class="w-full h-auto rounded-lg md:rounded-lg">
 
-                    <div>
-                        <h2 class="px-5  md:h2Text">Magnolia Surabaya</h2>
-                        <p class="px-5 md:pText">Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota
+                    <div class="py-4">
+                        <h2 class="h2Text">Magnolia Surabaya</h2>
+                        <p class="pText pt-2">Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota
                             Tangerang, Banten 15136</p>
                     </div>
                 </div>
-                <div class="px-5 md:w-93.25">
-                    <img src="./image/image 6.png" alt="image 6.png">
+                <div class="px-0 md:px-5 md:w-93.25">
+                    <img src="./image/image 6.png" alt="image 6.png" class="w-full h-auto rounded-lg md:rounded-lg">
 
-                    <div>
-                        <h2 class="px-5  md:h2Text">Pinang Residences</h2>
-                        <p class="px-5  md:pText">Jl. Deplu Raya No.16 RT.5, RW.003
+                    <div class="py-4">
+                        <h2 class="h2Text">Pinang Residences</h2>
+                        <p class="pText pt-2">Jl. Deplu Raya No.16 RT.5, RW.003
                             Bintaro, Pesanggrahan, Jakarta Selatan 12330</p>
                     </div>
                 </div>
-                <div class="px-5 md:w-93.25">
-                    <img src="./image/image 7.jpg" alt="image 7.jpg">
+                <div class="px-0 md:px-5 md:w-93.25">
+                    <img src="./image/image 7.jpg" alt="image 7.jpg" class="w-full h-auto rounded-lg md:rounded-lg">
 
-                    <div>
-                        <h2 class="px-5 mt-5 text-[] md:h2Text">South Grove</h2>
-                        <p class="px-5  md:pText">1 No.1, RT.1/RW.1, Lb. Bulus, Kec. Cilandak, Kota Jakarta Selatan, Daerah
+                    <div class="py-4">
+                        <h2 class="h2Text">South Grove</h2>
+                        <p class="pText pt-2">1 No.1, RT.1/RW.1, Lb. Bulus, Kec. Cilandak, Kota Jakarta Selatan, Daerah
                             Khusus Ibukota Jakarta 12440</p>
                     </div>
                 </div>
             </div>
         </div>
-
-
     </section>
 
     <!-- Residen Berbagai Kota section start  -->
 
 
     <!-- contact section start  -->
-    <section class="py-15 bg-[#EEEDDE]">
-        <div class="md:grid md:grid-cols-2 md:justify-between gap-6 container">
+    <section class="py-12 md:py-15 bg-[#EEEDDE] px-4 md:px-0">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 container">
             <div>
                 <h1 class="hText">Hubungi Kami</h1>
-                <div class="md:grid md:grid-cols-2 gap-x-4">
-                    <div class="py-4 px-5 bg-white rounded-2xl text-center mt-10">
-                        <div class="md:flex items-center">
-                            <i class="fa-solid fa-phone ml-10 mr-5 mt-3 text-3xl"></i>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-x-4">
+                    <div class="py-4 md:py-6 px-4 md:px-5 bg-white rounded-lg md:rounded-2xl text-center contact-card">
+                        <div class="flex flex-col md:flex-row items-center justify-center md:justify-start gap-3">
+                            <i class="fa-solid fa-phone text-2xl md:text-3xl text-[#FF7527]"></i>
                             <div>
-                                <p>Cell</p>
-                                <p>+6281232936733</p>
+                                <p class="text-xs md:text-sm font-medium">Cell</p>
+                                <p class="text-sm md:text-base font-semibold">+6281232936733</p>
                             </div>
                         </div>
 
-                        <button class="btnText">Call now</button>
+                        <button class="btnText w-full">Call now</button>
                     </div>
-                    <div class="py-4 px-5 bg-white rounded-2xl text-center mt-10">
-                        <div class="flex items-center">
-                            <i class="fa-solid fa-phone ml-10 mr-5 mt-3 text-3xl"></i>
+                    <div class="py-4 md:py-6 px-4 md:px-5 bg-white rounded-lg md:rounded-2xl text-center contact-card">
+                        <div class="flex flex-col md:flex-row items-center justify-center md:justify-start gap-3">
+                            <i class="fa-solid fa-envelope text-2xl md:text-3xl text-[#FF7527]"></i>
                             <div>
-                                <p>Cell</p>
-                                <p>+6281232936733</p>
+                                <p class="text-xs md:text-sm font-medium">Email</p>
+                                <p class="text-sm md:text-base font-semibold">info@company.com</p>
                             </div>
                         </div>
 
-                        <button class="btnText">Call now</button>
+                        <button class="btnText w-full">Email now</button>
                     </div>
                 </div>
             </div>
 
-                <div class="items-center flex flex-col md:items-baseline-last pt-10">
-                    <h1 class="hText">Penghargaan</h1>
-                    <img src="./image/image 8.png" alt="Penghargaan">
-                </div>
+            <div class="flex flex-col items-center md:items-start justify-center py-6 md:py-10">
+                <h1 class="hText mb-6">Penghargaan</h1>
+                <img src="./image/image 8.png" alt="Penghargaan" class="w-full max-w-xs h-auto">
+            </div>
         </div>
 
     </section>
@@ -259,17 +257,17 @@
 
     <!-- Footer section start  -->
 
-    <footer class="bg-[#203239] px-5 py-6">
+    <footer class="bg-[#203239] px-4 md:px-5 py-6 md:py-8">
         <div class="container">
-            <div class="grid grid-cols-2 justify-between">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 justify-between items-center">
                 <div>
-                    <img src="./image/Frame 2.png" alt="logo">
+                    <img src="./image/Frame 2.png" alt="logo" class="w-32 md:w-40 h-auto">
                 </div>
-                <div class="flex justify-end gap-x-6 text-white text-2xl cursor-pointer">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-square-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                <div class="flex justify-center md:justify-end gap-x-6 text-white text-lg md:text-2xl cursor-pointer">
+                    <i class="fa-brands fa-facebook-f hover:text-[#FF7527] transition-colors"></i>
+                    <i class="fa-brands fa-square-instagram hover:text-[#FF7527] transition-colors"></i>
+                    <i class="fa-brands fa-twitter hover:text-[#FF7527] transition-colors"></i>
+                    <i class="fa-brands fa-linkedin hover:text-[#FF7527] transition-colors"></i>
                 </div>
             </div>
         </div>
